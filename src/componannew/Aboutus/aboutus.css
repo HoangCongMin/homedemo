@@ -1,0 +1,94 @@
+.cart1{
+    text-align: center;
+    
+}
+
+.cart11{
+    color: hotpink;
+}
+
+.cart1 h1{
+    color: #091156;
+}
+.cart1 div{
+    padding: 20px;
+}
+.cart12 {
+    color: #8B8B8B;
+}
+
+#cart13{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+#cart13 img{
+    width: 100px;
+    height: 100px;
+}
+
+#cart13 div{
+    background-color: white;
+    border-radius: 42px;
+    box-shadow: 0px 25px 50px 25px #F6F7FF;
+    width: 250px;
+    height: 300px;
+
+}
+
+.cartit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/*about*/
+
+#hdit4{
+    border: 1px solid hotpink;
+    padding: 3px 20px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: white;
+    height: 40px;
+}
+
+.gt2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gt3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#gt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gt1 .hdab{
+    color: hotpink;
+}
+
+#gt11 img{
+    height: 330px;
+    width: 460px;
+}
+
+#bgcart{
+    background-image: url("../../aces/Img/Background Bubble-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+
+}

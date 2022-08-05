@@ -1,0 +1,93 @@
+#tem{
+    text-align: center;
+    padding: 40px;
+}
+
+.menber{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+}
+
+.mb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 42px;
+    box-shadow: 0px 25px 50px 25px #F6F7FF;
+    background: #fff;
+}
+
+.menber11{
+    color: hotpink;
+}
+
+.menber12{
+    color: grey;
+}
+
+/*contactus*/
+
+.ctus1{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.ctus input{
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid #D9DDFE;
+}
+
+.ctus1 input{
+    border-radius: 10px ;
+    border: 1px solid #D9DDFE;
+    padding: 7px;
+    margin: 10px;
+    outline: none;
+}
+
+#contacus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacus2 img{
+    width: 350px;
+    height: 400px;
+}
+
+.contacus2{
+    padding: 30px;
+}
+
+.ctus1 .ttabout{
+    height: 150px;
+    border-radius: 10px ;
+    border: 1px solid #D9DDFE;
+    padding: 10px;
+}
+
+#hdit5{
+    border: 1px solid hotpink;
+    padding: 7px 25px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: white;
+    margin-top: 10px;
+}
+
+#bgtem{
+    background-image: url("../../aces/Img/Background Bubble-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+
+}

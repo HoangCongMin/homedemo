@@ -1,0 +1,97 @@
+#hder{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#hdd1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#hdd2{
+    width: 60%;
+}
+
+#hdd2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.hd1 ul .hdit{
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 25px;
+
+}
+
+#hdit1{
+    color: #41487F;
+}
+
+.hdit{
+    color: #8B8B8B;
+}
+
+#hdit2{
+    border: 1px solid hotpink;
+    padding: 7px 25px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: white;
+
+}
+
+/*het herder*/
+
+#hdit3{
+    border: 1px solid hotpink;
+    padding: 7px 25px;
+    border-radius: 25px;
+    background-color: hotpink;
+    color: white;
+
+}
+
+.sl1 img{
+    width: 500px;
+    height: 300px;
+
+}
+
+#silde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+
+}
+
+#sl12{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#sl11{
+
+    height: 270px;
+}
+
+.sl1{
+    width: 50%;
+    padding: 10px;
+}
+
+#pdbg{
+    background-image: url("../../aces/Img/Background Bubble-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+
+}

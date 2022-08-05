@@ -1,0 +1,45 @@
+#footer{
+    position: relative;
+    background-image: url("../../aces/Img/Footer BG-2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1440px;
+}
+
+.ft{
+    position: absolute;
+    display: flex;
+    width: 100%;justify-content: space-around;
+    align-items: center;
+    top: 30%;
+
+}
+
+.ft11{
+    color: #F6F7FF;
+}
+
+.ft11 h3{
+    margin: 0;
+}
+
+.ft12{
+    padding: 10px;
+}
+
+#bt{
+    top: 30rem;
+    left: 80rem;
+    width: 40px;
+}
+
+#lh{
+    top: 35rem;
+    color: white;
+}
+
+.lh1 img{
+    width: 21px;
+    height: 24px;
+    margin: 10px;
+}
