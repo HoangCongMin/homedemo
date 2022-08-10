@@ -51,8 +51,8 @@ const Mainslider = () =>{
             <div className="sl1" id="sl12">
                 <div id="sl11">
                     
-                    <h1>Clinic&beauty <br/> consuntanl</h1>
-                    <p>it is a long established fact that a reader will be <br/>by the readable content of a page.</p>
+                    <h1>Clinic&beauty <br/>consultant</h1>
+                    <p>It is a long established fact that a reader will be <br/>by the readable content of a page.</p>
                     <button id="hdit3">More Details</button>
                 
                 </div>
