@@ -1,5 +1,6 @@
 .cart1{
     text-align: center;
+    margin-bottom: 3rem;
     
 }
 
@@ -19,9 +20,12 @@
 
 #cart13{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 30px;
     align-items: center;
+    margin-bottom: 2rem;
+    margin: 10px;
+    
 }
 
 #cart13 img{
@@ -44,6 +48,8 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    width: 343px;
+    height: 458px;
 }
 
 /*about*/
@@ -54,26 +60,35 @@
     border-radius: 25px;
     background-color: hotpink;
     color: white;
-    height: 40px;
+    height: 50px;
+    width: 200px;
 }
 
 .gt2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .gt3{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width: 200px;
+    height: 50px;
+}
+
+.gt3 span{
+    margin-right: 30px;
 }
 
 
 #gt{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin-left: 3.5rem;
 }
 
 .gt1 .hdab{
@@ -81,8 +96,9 @@
 }
 
 #gt11 img{
-    height: 330px;
-    width: 460px;
+    height: 400px;
+    width: 650px;
+    padding-top:4rem;
 }
 
 #bgcart{

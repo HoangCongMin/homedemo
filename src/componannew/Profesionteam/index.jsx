@@ -48,21 +48,23 @@ const Profesionteam = () =>{
     return (<div id="bgtem">
 
         <div id="tem">
-            <p>Professional Teams</p>
+            <p className="fess">Professional Teams</p>
             <h1>The Professional expert</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
             <div className="menber">
                 {menber.map((item,index)=>(
                   
                     <div className={'mb1'} key={index}>
+                        <div>
                         <img src={item.img} alt=""/>
                             <p className="menber11">{item.maa}</p>
-                            <h5>{item.name}</h5>
+                            <h3>{item.name}</h3>
                             <p className="menber12">{item.noidung}</p>
                             <div>
                                 <img src={item.fb} alt=""/>
                                 <img src={item.tw} alt=""/>
                                 <img src={item.ig} alt=""/>
+                            </div>
                             </div>
                     </div>
                 )
@@ -91,7 +93,7 @@ const Profesionteam = () =>{
                 <div className="ctus1">
                     <input type="text" placeholder="email address"/>
                     <input type="text" placeholder="subject message"/>
-                    <textarea className="ttabout">your in queri here</textarea>
+                    <textarea className="ttabout" placeholder="your in queri here"></textarea>
 
                 </div>
                 <button id="hdit5">More Details</button>

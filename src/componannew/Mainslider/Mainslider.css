@@ -1,40 +1,35 @@
 #hder{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    width: 1140px;
+    height: 63px;
+    justify-content: space-between;
 }
 
-#hdd1{
-    width: 40%;
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#hd11{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-top: 30px;
 }
 
-#hdd2{
-    width: 60%;
-}
-
-#hdd2 ul{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.hd1 ul .hdit{
-    list-style-type: none;
-    margin: 20px;
-    padding-left: 25px;
-
-}
 
 #hdit1{
     color: #41487F;
+    
 }
 
 .hdit{
     color: #8B8B8B;
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 5px;
 }
 
 #hdit2{
@@ -43,23 +38,27 @@
     border-radius: 25px;
     background-color: hotpink;
     color: white;
-
+    width: 158px;
+    height: 52px;
+    margin-top: 3px;
 }
 
 /*het herder*/
 
 #hdit3{
     border: 1px solid hotpink;
-    padding: 7px 25px;
     border-radius: 25px;
     background-color: hotpink;
     color: white;
+    width: 200px;
+    height: 58px;
+    margin-top: 10px;
 
 }
 
 .sl1 img{
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
 
 }
 
@@ -68,6 +67,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
+    margin-top: 6rem;
 
 
 }
@@ -79,9 +79,20 @@
 }
 
 #sl11{
-
-    height: 270px;
+    width: 500px;
+    height: 400px;
+    
+    
 }
+
+#sl11 h1{
+    font-size: 50px;
+}
+
+#sl11 p{
+    font-size: 20px;
+}
+
 
 .sl1{
     width: 50%;
@@ -93,5 +104,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 1440px;
+    height: 805px;
 
 }

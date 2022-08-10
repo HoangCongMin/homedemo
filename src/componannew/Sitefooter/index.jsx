@@ -21,7 +21,7 @@ const sitefooter = () =>{
                         <span>mail@company.com.</span>
                     </div>
             </div>
-            <div className="ft11">
+            <div className="ft11" >
                 <h3>page</h3>
                 <div className="ft12">
                     <p>home</p>
@@ -31,7 +31,7 @@ const sitefooter = () =>{
                     <p>team</p>
                 </div>
             </div>
-            <div className="ft11">
+            <div className="ft11" id="ft113">
                 <h3>
                     information
                 </h3>
@@ -57,7 +57,7 @@ const sitefooter = () =>{
                             <img src={minstagram} alt=""/>
                                 <img src= {twitter}alt=""/>
             </div>
-            <div>
+            <div className="lh123">
                 <span>© AltDesain Studio 2021 - All right reserved.</span>
             </div>
         </div>

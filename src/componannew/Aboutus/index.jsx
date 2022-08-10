@@ -61,9 +61,11 @@ const Aboutus = () =>{
                 
             </div>
         </div>
+        
         <div id="gt">
+        
             <div className="gt1">
-                <p className="hdab">about us</p>
+            <p className="hdab">about us</p>
                 <h1>We are the best beauty clinic</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Elit, quam suscipit purus
                     donec <br/> amet. Egestas volutpat facilisi eu libero. Nunc,
@@ -74,8 +76,7 @@ const Aboutus = () =>{
                 <div className="gt2">
                     <button id="hdit4" className="gt3">lear more</button>
                     <div className="gt3">
-                        <img src={Play_button}
-                             alt=""/>
+                        <img src={Play_button}alt=""/>
                             <span>Watch Video</span>
                     </div>
                 </div>

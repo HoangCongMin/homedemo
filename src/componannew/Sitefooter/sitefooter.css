@@ -12,7 +12,12 @@
     width: 100%;justify-content: space-around;
     align-items: center;
     top: 30%;
+    
 
+}
+
+#ft113{
+    margin-right: 2rem;
 }
 
 .ft11{
@@ -36,7 +41,18 @@
 #lh{
     top: 35rem;
     color: white;
+    justify-content: space-between;
+    
+    
 }
+
+#lh .lh1{
+   margin-left: 8.5rem;
+}
+
+#lh .lh123{
+    margin-right: 11rem;
+ }
 
 .lh1 img{
     width: 21px;
