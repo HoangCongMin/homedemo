@@ -6,8 +6,6 @@ import Instagram from '../../aces/Img/Instagram.png'
 import unsplash_FVh_yqLR9eA from '../../aces/Img/unsplash_FVh_yqLR9eA.png'
 import unsplash_pTrhfmj2jDA from '../../aces/Img/unsplash_pTrhfmj2jDA.png'
 import Contact from '../../aces/Img/Contact Animations.png'
-import {fasquarexmark} from"react-icons/fa";
-
 
 
 
