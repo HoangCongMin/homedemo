@@ -16,19 +16,19 @@ const Aboutus = () =>{
         classname:'cartit',
         img:Animation1,
         name:'Beauty consultation',
-        noidung:'Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Nonarturient  amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
+        noidung:'Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
     },
         {
             classname:'cartit',
             img:img,
             name:'Beauty consultation',
-            noidung:'Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Nonarturient  amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
+            noidung:'Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
         },
         {
             classname:'cartit',
             img:Animation3,
             name:'Beauty consultation',
-            noidung:'Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Nonarturient  amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
+            noidung:'Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.'
         },
 
     ]
@@ -39,7 +39,7 @@ const Aboutus = () =>{
     <div id="bgcart">
         <div id="cart">
             <div className="cart1">
-                <p className="cart11">main services</p>
+                <p className="cart11">Main Services</p>
                 <h1>Lear services to focus <br/> on your beauty</h1>
                 <p className="cart12">Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Non
                     parturient <br/> amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</p>
@@ -65,26 +65,26 @@ const Aboutus = () =>{
         <div id="gt">
         
             <div className="gt1">
-            <p className="hdab">about us</p>
+            <p className="hdab">About us</p>
                 <h1>We are the best beauty clinic</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Elit, quam suscipit purus
                     donec <br/> amet. Egestas volutpat facilisi eu libero. Nunc,
                         <br/>ipsum ornare mauris sit quam quis enim. Varius <br/> tellus in suspendisse placerat. <br/>
+                        <br />
 
                             Id dui erat sed quam tellus in purus. Pellentesque <br/> congue fringilla cras tellus enim.
                 </p>
                 <div className="gt2">
                     <button id="hdit4" className="gt3">lear more</button>
-                    <div className="gt3">
+                    <div className="gt3" id="gt33">
                         <img src={Play_button}alt=""/>
                             <span>Watch Video</span>
                     </div>
                 </div>
             </div>
-            <div className="gt1" id="gt11">
-                <img src={unsplash_LRXYS0tSyGc}
+            
+            <img className="gt5" src={unsplash_LRXYS0tSyGc}
                      alt=""/>
-            </div>
 
         </div>
     </div>

@@ -3,12 +3,30 @@
     padding: 40px;
     margin-bottom: 3rem;
 }
-#tem p{
+#tem .temp{
     margin-bottom: 30px;
+height: 51px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #8B8B8B;
+
 }
 
 #tem .fess{
     color: hotpink;
+    font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+}
+
+#tem h1{
+    font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+color: #091156;
+
 }
 
 .menber11{
@@ -17,7 +35,7 @@
 
 .menber{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 40px;
     margin-right: 70px;
     margin-left: 40px;
@@ -32,8 +50,21 @@
     width: 300px;
     height: 500px;
     border-radius: 42px;
-    box-shadow: 0px 25px 50px 25px #F6F7FF;
     background: #fff;
+    transition: 1s;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.mb1:hover{
+    box-shadow: 0px 25px 50px 25px #F6F7FF;
+    transform: scale(1.1);
+    transition: width 1s;
+}
+
+.mb1 .imgb1{
+  width: 146px;
+  height: 146px;
 }
 
 .mb1 div{
@@ -47,6 +78,11 @@
 
 .menber12{
     color: grey;
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.1em;
+
 }
 
 /*contactus*/
@@ -55,69 +91,163 @@
     display: flex;
     flex-direction: column;
     width: 360px;
+    margin-top: 38px;
+}
+
+.ctus{
+    margin-top: 28px;
 }
 
 .ctus input{
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 7px;
-    margin: 10px;
+    
     border: 1px solid #D9DDFE;
-    width: 220px;
+    width: 200px;
     height: 40px;
 }
 
+.ctus .ctus111{
+  margin-left: 20px;
+}
+
 .ctus1 input{
-    border-radius: 10px ;
+    border-radius: 15px;
     border: 1px solid #D9DDFE;
-    padding: 7px;
-    margin: 10px;
     outline: none;
-    width: 480px;
-    height: 40px;
+    width: 447px;
+    height: 56px;
+    margin-bottom: 38px;
+    padding-left: 5px;
 }
 
 #contacus{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    background-image: url("../../aces/Img/Background Bubble-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 58px;
 }
 
 .contacus2 img{
-    width: 512px;
-    height: 614px;
-    padding-top: 8rem;
+    width: 520px;
+    height: 500px;
+    padding-top: 6rem;
 }
 
-.contacus2{
-    padding: 30px;
-    margin-right: 6rem;
+
+.contacus2 p{
+    font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+
+color: #FF64AE;
+}
+
+.contacus2 h1{
+    font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+
+
+color: #091156;
+
+}
+
+.contacus2 .ctacu2{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+
+ 
 }
 
 .ctus1 .ttabout{
     height: 150px;
-    border-radius: 10px ;
+    border-radius: 15px ;
     border: 1px solid #D9DDFE;
-    padding: 10px;
-    width: 480px;
-    height: 200px;
+    width: 447px;
+    height: 239.47px;
+    padding: 5px;
 }
 
 #hdit5{
     border: 1px solid hotpink;
     padding: 7px 25px;
-    border-radius: 25px;
     background-color: hotpink;
     color: white;
-    margin-top: 10px;
-    height: 50px;
-    width: 240px;
+    margin-top: 54px;
+    
+    width: 248px;
+height: 58px;
+box-shadow: 0px 17px 22px #FFEDF6;
+border-radius: 50px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
 }
 
 #bgtem{
-    background-image: url("../../aces/Img/Background Bubble-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1440px;
+    width: 100%;
 
+}
+
+
+@media (max-width:1024px) {
+    .menber{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        margin-right: 70px;
+        margin-left: 40px;
+        align-items: center;
+    
+    }
+
+    #contacus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../../aces/Img/Background Bubble-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 58px;
+    }
+
+    #ct1{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width:412px) {
+  .ctus{
+    flex-direction: column;
+  }
+  
+  .ctus input{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .ctus1 input{
+    width: 350px;
+    
+}
+.ctus1 .ttabout{
+    width: 350px;
+}
+.ctus1{
+    margin-left: 20px;
+}
+#hdit5 {
+    margin-left: 20px;
+}
 }

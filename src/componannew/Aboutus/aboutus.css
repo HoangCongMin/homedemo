@@ -6,16 +6,26 @@
 
 .cart11{
     color: hotpink;
+    font-weight: 600;
+font-size: 16px;
+line-height: 125%;
 }
 
 .cart1 h1{
     color: #091156;
+    font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+
 }
-.cart1 div{
-    padding: 20px;
-}
+
 .cart12 {
     color: #8B8B8B;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
 }
 
 #cart13{
@@ -24,21 +34,47 @@
     padding: 30px;
     align-items: center;
     margin-bottom: 2rem;
-    margin: 10px;
+    margin: 4rem;
     
 }
 
 #cart13 img{
-    width: 100px;
-    height: 100px;
+    width: 166px;
+height: 166px;
+margin-top: 59px;
 }
 
 #cart13 div{
     background-color: white;
     border-radius: 42px;
     box-shadow: 0px 25px 50px 25px #F6F7FF;
-    width: 250px;
-    height: 300px;
+    width: 343px;
+height: 458px;
+
+
+
+}
+
+#cart13 div h5{
+    font-weight: 600;
+font-size: 18px;
+line-height: 125%;
+color: #091156;
+margin-top: 59px;
+}
+
+#cart13 div p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.1em;
+color: #8B8B8B;
+margin-top: 5px;
+margin-left: 34px;
+margin-right: 35px;
+margin-bottom: 52px;
+text-align: center;
+
 
 }
 
@@ -56,19 +92,30 @@
 
 #hdit4{
     border: 1px solid hotpink;
-    padding: 3px 20px;
-    border-radius: 25px;
+    
     background-color: hotpink;
     color: white;
-    height: 50px;
     width: 200px;
+height: 58.36px;
+box-shadow: 0px 17px 22px #FFEDF6;
+border-radius: 50px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+    
 }
 
 .gt2{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 49px;
+    
+}
+.gt2 div{
+    margin-left: 45px;
 }
 
 .gt3{
@@ -77,6 +124,7 @@
     align-items: center;
     width: 200px;
     height: 50px;
+    
 }
 
 .gt3 span{
@@ -86,25 +134,117 @@
 
 #gt{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 3.5rem;
+    margin-left: 150px ;
+    width: 1140px;
+
 }
 
 .gt1 .hdab{
     color: hotpink;
+    font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+width: 73px;
+height: 20px;
+width:100%;
 }
 
-#gt11 img{
-    height: 400px;
-    width: 650px;
-    padding-top:4rem;
+.gt1  h1{
+    width: 664px;
+height: 52px;
+font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+color: #091156;
 }
+
+.gt1 p{
+    width: 483px;
+height: 196px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+}
+
+.gt1{
+    width: 50%;
+}
+
+.gt5{
+    margin-top: 3.5rem;
+}
+
+
+
+
+
 
 #bgcart{
-    background-image: url("../../aces/Img/Background Bubble-3.png");
+    background-image: url("../../aces/Img/Background Bubble.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 1440px;
+     background-size: cover;
+    width: 100%;
 
+}
+
+
+
+/* moblide */
+
+@media (max-width:1024px){
+    #cart13{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin: 4rem;
+        
+    }
+
+    #cart13 div {
+        margin-top: 2rem;
+    }
+
+    .gt5{
+        display: none;
+    }
+
+    #gt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .gt1 p{
+        height: auto;
+        width: auto;
+
+    }
+    .gt1 h1{
+        height: auto;
+        width: auto;
+    }
+
+
+}
+
+
+@media (max-width:412px) {
+    #gt33{
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    #gt33{
+        display: none;
+    }
 }

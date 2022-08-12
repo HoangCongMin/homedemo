@@ -6,6 +6,7 @@ import Instagram from '../../aces/Img/Instagram.png'
 import unsplash_FVh_yqLR9eA from '../../aces/Img/unsplash_FVh_yqLR9eA.png'
 import unsplash_pTrhfmj2jDA from '../../aces/Img/unsplash_pTrhfmj2jDA.png'
 import Contact from '../../aces/Img/Contact Animations.png'
+import {fasquarexmark} from"react-icons/fa";
 
 
 
@@ -50,13 +51,13 @@ const Profesionteam = () =>{
         <div id="tem">
             <p className="fess">Professional Teams</p>
             <h1>The Professional expert</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
+            <p className="temp">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
             <div className="menber">
                 {menber.map((item,index)=>(
                   
                     <div className={'mb1'} key={index}>
                         <div>
-                        <img src={item.img} alt=""/>
+                        <img className="imgb1" src={item.img} alt=""/>
                             <p className="menber11">{item.maa}</p>
                             <h3>{item.name}</h3>
                             <p className="menber12">{item.noidung}</p>
@@ -78,17 +79,17 @@ const Profesionteam = () =>{
 
         <div id="contacus">
 
-            <div className="contacus2">
+            <div className="contacus2" id="ct1">
                 <img src={Contact} alt=""/>
             </div>
             <div className="contacus2">
                 <p>contact us</p>
                 <h1>Send your inquiry to <br/>
                     our expert team</h1>
-                <p>Lorem ipsum dolor sit amet nulla turapis tellus.</p>
+                <p className="ctacu2">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
                 <div className="ctus">
-                    <input type="text" placeholder="first name"/>
-                    <input type="text" placeholder="last name"/>
+                    < input type="text"  placeholder="first name"/>
+                    <input type="text" className="ctus111" placeholder="last name"/>
                 </div>
                 <div className="ctus1">
                     <input type="text" placeholder="email address"/>

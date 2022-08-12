@@ -1,5 +1,5 @@
 import React from "react";
-import Main from '../../aces/Img/Main Logo.png'
+import Main from '../../aces/Img/Footer Logo 2.png'
 import ToTop from '../../aces/Img/ToTop Button.png'
 import youtube from '../../aces/Img/youtube.png'
 import linkedin  from'../../aces/Img/linkedin-in.png'
@@ -14,21 +14,21 @@ const sitefooter = () =>{
         <div className="ft" id="ft1">
             <div className="ft11">
                 <img src={Main} alt=""/>
-                    <div className="ft12">
+                    <div className="ft12" id="ft122">
                         <p>Beautice is a Beauty Clinic WordPress Theme.</p>
                         <p>Baker Steet 101, NY, United States.</p>
                         <span>+521 569 8966.</span>
-                        <span>mail@company.com.</span>
+                        <span className="ft121">mail@company.com.</span>
                     </div>
             </div>
-            <div className="ft11" >
+            <div className="ft11" id="ft014" >
                 <h3>page</h3>
                 <div className="ft12">
-                    <p>home</p>
-                    <p>about</p>
-                    <p>Service</p>
-                    <p>Gallery</p>
-                    <p>team</p>
+                    <p>▶ home</p>
+                    <p>▶ about</p>
+                    <p>▶ Service</p>
+                    <p>▶ Gallery</p>
+                    <p>▶ team</p>
                 </div>
             </div>
             <div className="ft11" id="ft113">
@@ -36,10 +36,10 @@ const sitefooter = () =>{
                     information
                 </h3>
                 <div className="ft12">
-                    <p>Terms & conditions</p>
-                    <p>Privacy policy</p>
-                    <p>Blog</p>
-                    <p>Contact</p>
+                    <p>▶ Terms & conditions</p>
+                    <p>▶ Privacy policy</p>
+                    <p>▶ Blog</p>
+                    <p>▶ Contact</p>
                 </div>
             </div>
 

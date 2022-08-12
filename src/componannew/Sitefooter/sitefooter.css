@@ -3,15 +3,16 @@
     background-image: url("../../aces/Img/Footer BG-2.png");
     background-repeat: no-repeat;
     height: 700px;
-    width: 1440px;
+    width: 100%;
 }
 
 .ft{
     position: absolute;
     display: flex;
-    width: 100%;justify-content: space-around;
-    align-items: center;
+    width: 100%;justify-content: space-between;
     top: 30%;
+    width: 1140px;
+    left: 10%;
     
 
 }
@@ -28,8 +29,27 @@
     margin: 0;
 }
 
+#ft122{
+    
+letter-spacing: 0.1em;
+font-size: 14px;
+
+color: #D7DBFF;
+margin-top: 33px;
+margin-left: 30px;
+}
+
 .ft12{
-    padding: 10px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    margin-top: 33px;
+    color: #D7DBFF;
+    margin-left: 5px;
+
+}
+
+.ft121{
+    margin-left: 30px;
 }
 
 #bt{
@@ -46,16 +66,66 @@
     
 }
 
-#lh .lh1{
-   margin-left: 8.5rem;
-}
 
-#lh .lh123{
-    margin-right: 11rem;
- }
+
 
 .lh1 img{
     width: 21px;
     height: 24px;
     margin: 10px;
+}
+
+
+/* mobile */
+
+@media (max-width:1024px) {
+    #ft113{
+        display: none;
+    }
+
+    #ft014{
+        display: none;
+    }
+
+    .ft{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        left: 10%;
+        width: 40%;
+        }
+
+        .lh123{
+            display: none;
+        }
+
+        #bt{
+            display: none;
+        }
+
+}
+
+@media (max-width: 412px) {
+    .ft{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        left: 10%;
+        width: 60%;
+        }
+    
+}
+
+@media (max-width: 500px) {
+    .ft{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        left: 10%;
+        width: 60%;
+        }
+    
 }
